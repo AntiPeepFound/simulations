@@ -1,3 +1,11 @@
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 18px;
+}
+
 #container {
     position: absolute;
     left: 50%;
@@ -6,10 +14,7 @@
     text-align: center;
 }
 
-#container h1 {
-    margin-bottom: 15px;
-}
-
 .btn {
     margin-bottom: 10px;
+    font-size: 17px;
 }

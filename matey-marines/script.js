@@ -1,16 +1,16 @@
-// document.querySelector('#prompt').style.display = "none";
-// document.querySelector('#stay').style.display = "none";
-// document.querySelector('#flee').style.display = "none";
-// document.querySelector('#fard').style.display = "none";
+document.querySelector('#prompt').style.display = "none";
+document.querySelector('#stay').style.display = "none";
+document.querySelector('#flee').style.display = "none";
+document.querySelector('#fard').style.display = "none";
 
-// setTimeout(showPrompt, 1000);
+setTimeout(showPrompt, 1000);
 
-// function showPrompt() {
-//     $('#prompt').fadeIn(0500);
-//     setTimeout(function() {$('#stay').fadeIn(1000);}, 2000);
-//     setTimeout(function() {$('#flee').fadeIn(1000);}, 3500);
-//     setTimeout(function() {$('#fard').fadeIn(1000);}, 5000);
-// }
+function showPrompt() {
+    $('#prompt').fadeIn(0500);
+    setTimeout(function() {$('#stay').fadeIn(1000);}, 2000);
+    setTimeout(function() {$('#flee').fadeIn(1000);}, 3500);
+    setTimeout(function() {$('#fard').fadeIn(1000);}, 5000);
+}
 
 $("#stay").click(function() {
     $("#stay").attr("disabled", true);
